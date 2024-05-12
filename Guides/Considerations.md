@@ -1,0 +1,1 @@
+# Cosiderations and Starting steps
