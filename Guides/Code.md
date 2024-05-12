@@ -1,10 +1,11 @@
 # Code Steps
 
-1. Create our model, you can use the endpoints to Use a JSON to C# converter and view the variables. Or review the code snippet from rapidAPI
-2. Discover that  from, to and quantity is needed.
-3. Create your model
-4. Next step to establish the connection by building the client service.
-5. In Program.cs add the following (**replacing the Key and Host with your**)
+1. Create an ASP.NET Core Web API application
+2. Create our model, you can use the endpoints to Use a JSON to C# converter and view the variables. Or review the code snippet from rapidAPI
+3. Discover that  from, to and quantity is needed.
+4. Create your model
+5. Next step to establish the connection by building the client service.
+6. In Program.cs add the following (**replacing the Key and Host with your**)
 ```
 builder.Services.AddHttpClient("CurrencyConverter", client =>
 {
@@ -49,4 +50,5 @@ private readonly IHttpClientFactory _httpClientFactory;
 9. Execute to test **but** we are not done just yet
 10. Proceed to add 2 more variables to the model, one to hold te exchange rate from the object and another the calculated conversion value
 11. Ammend the "exchange" endpoint to display the information
-12. Execute again and test.
+12. Remove Uneccessary Files
+13. Execute again and test.
